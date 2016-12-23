@@ -1,0 +1,19 @@
+INDEX VERSION 1.127+F:\work\SVendas\.metadata\.plugins\org.eclipse.jdt.core
+2099871549.index
+3619571706.index
+1160558044.index
+4280591644.index
+2950986344.index
+432769045.index
+2622091902.index
+543582614.index
+3021717271.index
+2350315875.index
+1299547394.index
+145411543.index
+2922541878.index
+1690456048.index
+1622303002.index
+853598064.index
+3140761993.index
+2555426126.index
