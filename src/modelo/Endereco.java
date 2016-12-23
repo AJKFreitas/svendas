@@ -22,6 +22,9 @@ public class Endereco {
 	
 	private String pais;
 
+	public String getDescricaoLogradouro(String codigo){
+		return EnumTipoLogradouro.getByCodigo(codigo);
+	}
 	public EnumTipoLogradouro getLogradouro() {
 		return logradouro;
 	}
