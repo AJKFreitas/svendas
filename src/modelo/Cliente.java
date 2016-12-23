@@ -6,7 +6,7 @@ public class Cliente {
 
 	private int idCliente;
 	private String nomeCliente;
-	private String endereco;
+	private Endereco endereco;
 	private String contato;
 	public int getIdCliente() {
 		return idCliente;
@@ -20,10 +20,11 @@ public class Cliente {
 	public void setNomeCliente(String nomeCliente) {
 		this.nomeCliente = nomeCliente;
 	}
-	public String getEndereco() {
+	
+	public Endereco getEndereco() {
 		return endereco;
 	}
-	public void setEndereco(String endereco) {
+	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
 	public String getContato() {
