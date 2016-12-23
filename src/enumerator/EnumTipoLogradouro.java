@@ -36,6 +36,14 @@ public enum EnumTipoLogradouro {
 	private	String condigo;
 	private	String descricao;
 	
+	public String getByCodigo(String codigo){
+		for (EnumTipoLogradouro tipo : EnumTipoLogradouro.values()) {
+			if (tipo.condigo == codigo) {
+				return tipo.getDescricao();
+			}
+		}
+		return null;
+	}
 	private EnumTipoLogradouro(String condigo, String descricao) {
 		this.condigo = condigo;
 		this.descricao = descricao;
